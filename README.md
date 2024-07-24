@@ -28,16 +28,11 @@ This project is a Go adaptation of the Python script originally created by [defp
    go get github.com/PuerkitoBio/goquery
    ```
 
-3. Build the executable:
-
-   ```bash
-   go build
-   ```
 
 ## Usage
 
 ```bash
-./bgp-cidr <organization>
+go run bgp-cidr.go <organization>
 ```
 
 Replace `<organization>` with the name of the organization you want to look up.
@@ -45,7 +40,7 @@ Replace `<organization>` with the name of the organization you want to look up.
 ## Example
 
 ```bash
-./bgp-cidr Google
+go run bgp-cidr.go <organization> Google
 ```
 
 This will fetch ASNs associated with "Google" and their corresponding CIDR blocks.
