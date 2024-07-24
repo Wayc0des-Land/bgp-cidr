@@ -1,7 +1,3 @@
-Certainly! Here's an updated version of the README file that includes credits to the original Python script's author:
-
----
-
 # ASN Lookup Tool
 
 This tool retrieves ASNs (Autonomous System Numbers) and associated CIDR blocks from the BGP routing information site [bgp.he.net](https://bgp.he.net/).
